@@ -12,7 +12,8 @@ puts string_1.class # retunrs the type => String
 puts 10.class # Integer
 
 # Check built-in methods
-puts string_1.methods # List of String methods
+# puts string_1.methods
+# List of String methods
 
 # Methods chaining very used in Ruby => Functional programming.
 puts string_1.upcase!.reverse!
@@ -22,3 +23,11 @@ puts "Hola, mi nombre es Francisco".sub("Francisco", "Frank")
 
 # Escaping special characters with \
 puts 'Hi Francisco, I want to escape \'this\''
+
+# Get input from user
+puts "What is your first name?"
+first_name = gets.chomp # HAndles strings
+
+puts "Your name is #{first_name}. What is your age?"
+age = gets.chomp.to_i # Make integer to operate
+puts "In five years you're going to be #{age+5}"
