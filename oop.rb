@@ -31,7 +31,7 @@ class Student
         @password
     end
 
-    # Function
+    # class function
     def print_full_name
         puts "#{@first_name} #{@last_name}, email: #{@email}"
     end
@@ -55,3 +55,7 @@ puts francisco.get_password # Same with getters. Need to define a function that 
 # :symbol notation. It allows to access the Setter and Getter with . notation. In this case
 francisco.wife = "Lily"
 puts francisco.wife # Made accessible with attribute accessor
+
+# Call class function
+
+francisco.print_full_name
