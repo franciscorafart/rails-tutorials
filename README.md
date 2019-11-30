@@ -25,5 +25,7 @@ $ rails server
 Deployment:
 To deply in heroku check this link [https://guides.railsapps.org/rails-deploy-to-heroku.html]
 
+Ruby style reference: [https://airbnb.io/projects/ruby/]
+
 TODO:
 Install latest version of ruby and re-install rails
