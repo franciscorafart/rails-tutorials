@@ -46,7 +46,7 @@ puts francisco # log the class object. # All classes have a to_s method that we 
 # In Ruby you can't assign attributes with . "dot" notation out of the box.
 # For example:
 francisco.set_password = "myPassword" # Doesn't work out of the box as attribute setter (JS property setter)
-# You need to create a function with a setter notation like the one above or an attribute accessor :last_name
+# You need to create a function with a setter notation like the one above or an attribute accessor :password
 
 puts francisco.get_password # Same with getters. Need to define a function that gets it to access with "dot" . notation
 
